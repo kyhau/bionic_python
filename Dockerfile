@@ -28,7 +28,7 @@ RUN apt update && apt install -y \
     libhdf4-alt-dev=4.2.\* \
     liblapack3=3.7.\* \
     libnetcdf-dev=1:4.6.\* \
-    libpq-dev=10.8.\* \
+    libpq-dev \
     libproj-dev=4.9.\* \
     libssl-dev=1.1.\* \
     libxerces-c-dev=3.2.\* \
@@ -37,7 +37,7 @@ RUN apt update && apt install -y \
     python3.6-dev \
     python3.7-dev \
     python3.8-dev \
-    python3-dev=3.5.\* \
+    python3-dev=3.6.\* \
     sendmail=8.15.\* \
     wget=1.19.\*
 
