@@ -38,8 +38,8 @@ RUN apt update && apt install -y \
     python3.7-dev \
     python3.8-dev \
     python3-dev=3.6.\* \
-    sendmail=8.15.\* \
-    wget=1.19.\*
+    sendmail \
+    wget
 
 # Install pip via PyPA's recommended way rather than the outdated apt repos
 # See: https://pip.pypa.io/en/stable/installing/
