@@ -17,7 +17,7 @@ RUN add-apt-repository -y ppa:webupd8team/java && \
 RUN apt update && apt install -y \
     build-essential=12.4\* \
     cmake=3.10.\* \
-    docker-ce=18.09.\* \
+    docker-ce=5:18.09.\* \
     g++=4:7.4.\* \
     gcc=4:7.4.\* \
     git=1:2.17.\* \
